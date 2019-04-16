@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/detailsInfo">
+
+        <menu>
+
+            <item
+                android:id="@+id/info"
+                android:icon="@mipmap/ic_info_black_24dp"
+                android:title="@string/info" />
+            <item
+                android:id="@+id/ask"
+                android:icon="@mipmap/ic_help_black_24dp"
+                android:title="@string/ask" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="@string/more_apps">
+        <menu>
+            <item
+                android:id="@+id/action_bdjobs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/action_bdjobs" />
+            <item
+                android:id="@+id/action_bdResult"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/action_bdResult" />
+
+        </menu>
+    </item>
+
+</menu>
